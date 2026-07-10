@@ -26,16 +26,16 @@
     "node",
     "placeholder"
   ],
-  "author": "rockyshi1993",
+  "author": "VextJS",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rockyshi1993/zig-node.git"
+    "url": "git+https://github.com/vextjs/zig-node.git"
   },
   "bugs": {
-    "url": "https://github.com/rockyshi1993/zig-node/issues"
+    "url": "https://github.com/vextjs/zig-node/issues"
   },
-  "homepage": "https://github.com/rockyshi1993/zig-node#readme",
+  "homepage": "https://github.com/vextjs/zig-node#readme",
   "engines": {
     "node": ">=18.0.0"
   },
