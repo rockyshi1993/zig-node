@@ -1,0 +1,46 @@
+{
+  "name": "zig-node",
+  "version": "0.0.1",
+  "description": "Placeholder npm package for the zig-node project.",
+  "type": "module",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test",
+    "test:audit": "npm audit --audit-level=moderate --registry=https://registry.npmjs.org/",
+    "pack:dry": "npm pack --dry-run",
+    "test:release": "npm test && npm run test:audit && npm run pack:dry",
+    "prepublishOnly": "npm run test:release"
+  },
+  "keywords": [
+    "zig",
+    "node",
+    "placeholder"
+  ],
+  "author": "rockyshi1993",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rockyshi1993/zig-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rockyshi1993/zig-node/issues"
+  },
+  "homepage": "https://github.com/rockyshi1993/zig-node#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  }
+}
